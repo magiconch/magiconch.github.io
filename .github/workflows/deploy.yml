@@ -14,9 +14,8 @@ jobs:
     # 生成静态文件
     - name: Build
       run: npm install && npm run build
-    - name: Deploy
+    - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: docs # The folder the action should deploy.
+          branch: gh-pages # The branch the action should deploy to.
+          folder: docs # The folder the action should deploy.
