@@ -16,18 +16,9 @@ jobs:
       run: npm install && npm run build
 
       # 部署到 GitHub Pages
-     - name: Deploy
+    - name: Deploy
       uses: magiconch/magiconch.github.io@main
       with:
          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: main
         FOLDER: docs/
-
-    # - name: Deploy
-    #   uses: magiconch/magiconch.github.io@main
-    #   env:
-    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-    #     TARGET_REPO: magiconch/magiconch.github.io
-    #     TARGET_BRANCH: main
-    #     BUILD_SCRIPT: npm run build
-    #     BUILD_DIR: docs/
