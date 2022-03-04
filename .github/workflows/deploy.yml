@@ -1,17 +1,29 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     # - name: Checkout
     #   uses: actions/checkout@master
+    - name: Checkout
+        uses: actions/checkout@v2 # If you're using actions/checkout@v2 - must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
 
-    - name: magiconch
-      uses: magiconch/magiconch.github.io@main
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: magiconch/magiconch.github.io
-        TARGET_BRANCH: main
-        BUILD_SCRIPT: npm run build
-        BUILD_DIR: docs/
+    - name: Install and Build
+        run: |
+          npm install
+          npm run build
+
+    # - name: Deploy
+    #   uses: magiconch/magiconch.github.io@main
+    #   env:
+    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    #     TARGET_REPO: magiconch/magiconch.github.io
+    #     TARGET_BRANCH: main
+    #     BUILD_SCRIPT: npm run build
+    #     BUILD_DIR: docs/
