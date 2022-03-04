@@ -1,3 +1,5 @@
+[![Build and Deploy](https://github.com/magiconch/magiconch.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/magiconch/magiconch.github.io/actions/workflows/deploy.yml)
+
 ---
 home: true
 heroText: 小摩尔的QQ空间
