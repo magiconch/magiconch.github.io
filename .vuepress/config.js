@@ -1,7 +1,7 @@
 module.exports = {
   "title": "小摩尔的QQ空间",
   "description": "经典时尚小日志",
-  "dest": "public",
+  "dest": "docs",
   "head": [
     [
       "link",
