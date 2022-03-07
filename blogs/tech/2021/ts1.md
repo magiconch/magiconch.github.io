@@ -1,4 +1,3 @@
-
 ---
 title: Typescript中的Record到底是什么？
 date: 2021-12-17
