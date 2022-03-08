@@ -76,8 +76,8 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "magiconch",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017"
+    "record": "能力有限责任公司",
+    "startYear": "2019"
   },
   "markdown": {
     "lineNumbers": true
