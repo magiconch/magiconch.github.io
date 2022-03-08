@@ -1,5 +1,5 @@
 ---
-title: 全局作用域中，用 const 和 let 声明的变量不在 window 上，那到底在哪里？如何去获取？
+title: 如何用webpack打包umd模块并测试打包结果
 date: 2019-02-22
 tags:
  - webpack
