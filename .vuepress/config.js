@@ -64,10 +64,10 @@ module.exports = {
     },
     "friendLink": [
       {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
+        "title": "水水獭的QQ空间",
+        "desc": "Oshawott's QQ Zone",
+        "avatar": "https://wenjin1997.github.io/avatar.png",
+        "link": "https://wenjin1997.github.io/"
       }
     ],
     "logo": "/logo.png",
