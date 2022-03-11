@@ -1,16 +1,16 @@
 ---
 home: true
-heroText: 小摩尔的QQ空间
+heroText: 小旱獭的QQ空间
 tagline: 整点小文章
-# heroImage: /hero.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
+heroImage: http://ghchart.rshah.org/magiconch
+heroImageStyle: {
+  maxWidth: '800px',
+  width: '100%',
+  display: block,
+  margin: '9rem auto 2rem',
+  background: '#fff',
+  borderRadius: '1rem',
+}
 bgImageStyle: {
   height: '450px'
 }

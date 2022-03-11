@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "小摩尔的QQ空间",
-  "description": "经典时尚小日志",
+  "title": "小旱獭的QQ空间",
+  // "description": "经典时尚小日志",
   "dest": "docs",
   "head": [
     [
@@ -70,12 +70,12 @@ module.exports = {
         "link": "https://wenjin1997.github.io/"
       }
     ],
-    "logo": "/logo.png",
+    "logo": "/avatar.gif",
     "search": true,
-    "searchMaxSuggestions": 10,
+    "searchMaxSuggestions": 10, 
     "lastUpdated": "Last Updated",
     "author": "magiconch",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/avatar.gif",
     "record": "能力有限责任公司",
     "startYear": "2019"
   },
